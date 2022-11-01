@@ -10,7 +10,7 @@ jobs:
     steps:
       - uses: actions/checkout@master
 
-        uses: snyk/actions/node@master
+      - uses: snyk/actions/node@master
         env:
           SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }} 
 
